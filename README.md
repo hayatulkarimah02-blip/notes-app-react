@@ -46,6 +46,6 @@ src/
 
 ## Screenshot
 
-![App Screenshot](assets/Screenshot1.png)
-![App Screenshot](assets/Screenshot2.png)
-![App Screenshot](assets/Screenshot3.png)
+![App Screenshot](assets/Screenshot1.jpeg)
+![App Screenshot](assets/Screenshot2.jpeg)
+![App Screenshot](assets/Screenshot3.jpeg)
