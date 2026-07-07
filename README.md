@@ -1,51 +1,49 @@
-# DevNotes Dashboard
+# DevNotes Dashboard 
 
-DevNotes Dashboard adalah aplikasi manajemen catatan berbasis web yang dirancang khusus untuk menyimpan poin-poin materi pemrograman, script, atau catatan harian secara rapi. Proyek ini awalnya dikembangkan sebagai submission Dicoding, lalu dibangun dan dimodifikasi ulang dengan sentuhan UI personal yang lebih modern dan fungsional.
+A web-based note management application built with React, designed to store programming notes, scripts, or daily notes in an organized and efficient way.
 
----
+## Features
+- **Add Note:** Create new notes with title validation (max 50 characters)
+- **Search Notes:** Real-time search by keyword in note title and body
+- **Archive Note:** Move active notes to archive section
+- **Restore Note:** Move archived notes back to active list
+- **Delete Note:** Permanently delete notes from dashboard or archive
+- **Keyword Highlighting:** Highlights search keywords in note title and body
+- **Grouped by Month:** Notes grouped by month and year for better organization
 
-## Fitur Utama
+## Tech Stack
+- React.js
+- Vite
+- JavaScript (ES6+)
+- CSS Custom Properties
 
-Aplikasi ini dilengkapi dengan fitur manajemen catatan (CRUD sederhana) yang interaktif:
+## Project Structure
 
-- **Tambah Catatan Baru:** Membuat catatan dengan validasi batas maksimal karakter judul (maksimal 50 karakter).
-- **Cari Catatan:** Fitur pencarian dinamis berdasarkan kata kunci judul secara real-time.
-- **Arsipkan Catatan:** Memisahkan catatan aktif ke dalam daftar arsip agar dasbor tetap rapi.
-- **Pulihkan dari Arsip:** Mengembalikan catatan yang diarsipkan kembali ke daftar catatan aktif.
-- **Hapus Catatan:** Menghapus catatan secara permanen dari dasbor maupun arsip.
+    src/
+    ├── components/
+    │   ├── App.jsx
+    │   ├── NoteInput.jsx
+    │   ├── NotesList.jsx
+    │   ├── NoteItem.jsx
+    │   ├── NoteSearch.jsx
+    │   └── NoteActionButton.jsx
+    ├── styles/
+    │   └── style.css
+    └── utils/
+        └── index.js
 
----
-
-## Teknologi yang Digunakan
-
-Proyek ini dibangun menggunakan ekosistem Front-End web development modern:
-
-- **React.js** – Library utama untuk membangun UI berbasis komponen.
-- **Vite** – Build tool modern untuk pengalaman pengembangan yang cepat.
-- **JavaScript (ES6+)** – Manipulasi data menggunakan array methods seperti filter(), map(), dan lainnya.
-- **CSS Custom Properties** – Styling kustom untuk mendukung tema dark mode yang nyaman di mata.
-
----
-
-## Struktur Folder Proyek
-
-```text
-src/
-├── components/          # Komponen UI modular (Card, Search, Board, Editor)
-│   ├── App.jsx
-│   ├── DevNoteBoard.jsx
-│   ├── DevNoteButton.jsx
-│   ├── DevNoteCard.jsx
-│   ├── DevNoteEditor.jsx
-│   └── DevNoteSearch.jsx
-├── styles/
-│   └── style.css        # Pusat manajemen styling dan variabel warna
-└── utils/
-    └── data.js          # Initial data dummy untuk catatan
-```
+## How to Run
+1. Clone this repository
+2. Install dependencies: `npm install`
+3. Start development server: `npm run dev`
+4. Open browser at `http://localhost:5173`
 
 ## Screenshot
 
 ![App Screenshot](assets/Screenshot1.jpeg)
 ![App Screenshot](assets/Screenshot2.jpeg)
 ![App Screenshot](assets/Screenshot3.jpeg)
+
+## Author
+Aah Hayatul Karimah
+
